@@ -42,14 +42,14 @@ export function Header() {
           href="/"
           className="flex items-center gap-2.5 group"
         >
-          <div className="relative w-8 h-8 rounded-full overflow-hidden border border-white/30 shadow-sm flex-shrink-0">
-            <Image
-              src="/logo.jpeg"
-              alt="Guide You Ceylon Logo"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-300"
-            />
-          </div>
+          <Image
+            src="/logo.png"
+            alt="Guide You Ceylon Logo"
+            width={48}
+            height={31}
+            className="h-8 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+            priority
+          />
           <span
             className={`text-base font-semibold tracking-tight transition-colors duration-300 ${
               isScrolled || isMenuOpen ? "text-foreground" : "text-white drop-shadow-sm"

@@ -26,8 +26,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Guide You Ceylon" }],
   icons: {
-    icon: "/logo.jpeg",
-    apple: "/logo.jpeg",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: "/favicon.png",
+    shortcut: "/favicon.png",
   },
   openGraph: {
     title: "Guide You Ceylon | Wilderness Trekking & Camping Expeditions",
@@ -37,9 +40,9 @@ export const metadata: Metadata = {
     siteName: "Guide You Ceylon",
     images: [
       {
-        url: "/logo.jpeg",
-        width: 800,
-        height: 800,
+        url: "/logo.png",
+        width: 626,
+        height: 399,
         alt: "Guide You Ceylon Logo",
       },
     ],

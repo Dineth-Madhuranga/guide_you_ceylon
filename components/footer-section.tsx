@@ -13,14 +13,13 @@ export function FooterSection() {
           {/* Brand Info */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5">
-              <div className="relative w-8 h-8 rounded-full overflow-hidden border border-border flex-shrink-0">
-                <Image
-                  src="/logo.jpeg"
-                  alt="Guide You Ceylon Logo"
-                  fill
-                  className="object-cover"
-                />
-              </div>
+              <Image
+                src="/logo.png"
+                alt="Guide You Ceylon Logo"
+                width={48}
+                height={31}
+                className="h-8 w-auto object-contain"
+              />
               <span className="text-lg font-semibold tracking-tight text-foreground">
                 GUIDE YOU CEYLON
               </span>
